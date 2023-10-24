@@ -4,7 +4,7 @@ import inquirer from 'inquirer';
 
 const replaceString = (filepath, replacement) => {
   const fileContent = fs.readFileSync(filepath, 'utf-8');
-  const replaced = fileContent.replace('package-name', replacement);
+  const replaced = fileContent.replace(/package-name/g, replacement);
   fs.writeFileSync(filepath, replaced);
 }
 
@@ -27,7 +27,7 @@ inquirer
       for (const filename of filesForReplacement) {
         const filepath = path.resolve(process.cwd(), filename);
         if (fs.readFileSync(filepath)) {
-          replaceString(/filepath/g, packageName);
+          replaceString(filepath, packageName);
         }
       }
 
