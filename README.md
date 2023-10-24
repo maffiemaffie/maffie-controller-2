@@ -16,7 +16,7 @@ import Package from '@maffieramos/package-name';
 ## Building 
 Build using scripts:
 
-Install the dev dependencies:
+Install the dependencies:
 ```shell
 npm install
 ```
