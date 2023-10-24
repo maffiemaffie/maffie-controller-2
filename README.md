@@ -20,6 +20,10 @@ Install the dev dependencies:
 ```shell
 npm install
 ```
+and name the package 
+```shell
+npm run rename
+```
 
 ### Build
 This package uses [Rollup](https://rollupjs.org/) for building.
