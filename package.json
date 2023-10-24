@@ -1,6 +1,6 @@
 {
-  "name": "@maffieramos/npm-esm-template",
-  "version": "0.0.2",
+  "name": "@maffieramos/package-name",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/package-name.esm.mjs",
   "types": "dist/package-name.esm.dts",
