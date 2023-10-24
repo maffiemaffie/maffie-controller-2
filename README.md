@@ -44,4 +44,4 @@ npm run lint
 ```
 
 ## Credits
-[Elie Cohen](https://github.com/maffiemaffie)
+[Elia Cohen](https://github.com/maffiemaffie)
