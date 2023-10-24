@@ -7,9 +7,10 @@
   "type": "module",
   "scripts": {
     "lint": "eslint src/index.ts --fix && echo \"lint clean\"",
-    "test": "jest ./tests",
+    "test": "jest",
     "build": "rollup -c",
-    "rename": "node bin/name-package.js && npm install"
+    "rename": "node bin/name-package.js && npm install",
+    "release": "release-it"
   },
   "author": "Elia Cohen",
   "license": "ISC",
