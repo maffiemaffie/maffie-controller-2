@@ -4,7 +4,6 @@
   "description": "",
   "main": "dist/package-name.esm.mjs",
   "types": "dist/package-name.esm.dts",
-  "type": "module",
   "scripts": {
     "lint": "eslint src/index.ts --fix && echo \"lint clean\"",
     "test": "jest",
