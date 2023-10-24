@@ -21,7 +21,7 @@ inquirer
 
       const filesForReplacement = [
         "package.json",
-        "rollup-config.mjs",
+        "rollup.config.mjs",
       ];
       
       for (const filename of filesForReplacement) {
