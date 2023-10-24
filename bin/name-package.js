@@ -24,7 +24,7 @@ inquirer
         "rollup-config.mjs",
       ];
       
-      for (const filename in filesForReplacement) {
+      for (const filename of filesForReplacement) {
         const filepath = path.resolve(process.cwd(), filename);
         if (fs.readFileSync(filepath)) {
           replaceString(filepath, packageName);
