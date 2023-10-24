@@ -8,7 +8,7 @@
     "lint": "eslint src/index.ts --fix && echo \"lint clean\"",
     "test": "jest ./tests",
     "build": "rollup -c",
-    "init": "bin/rename-package.js && npm install"
+    "init": "bin/name-package.js && npm install"
   },
   "author": "Elia Cohen",
   "license": "ISC",
